@@ -193,6 +193,9 @@ iframe {
     #nav li{
         width:49%;
     }
+    #main-splash{
+        height:800px;
+    }
 }
 
 /* Sets Styles for Social Media Share Buttons */

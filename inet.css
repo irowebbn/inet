@@ -7,7 +7,6 @@
 #header img{
   display: block;
   margin:auto;
-
  }
 #nav {
     background-color: #005DAA;
@@ -107,9 +106,10 @@ h2 {
 }
 #container-2{
     margin: 5% 0 5% 0;
-     background-image: url(dark-pattern.jpg);
+    background-image: url(dark-pattern.jpg);
     background-color: gray;
     padding: 5% 3% 5% 3%;
+    clear: both;
 }
 #container-2 ul{
     margin:auto;
@@ -184,6 +184,15 @@ iframe {
 
 #copyright{
     float:left;
+}
+/*Sets special rules for mobile devices*/
+@media screen and (max-device-width: 662px){
+    #header img{
+        width:100%;
+    }
+    #nav li{
+        width:49%;
+    }
 }
 
 /* Sets Styles for Social Media Share Buttons */

@@ -84,6 +84,7 @@ body {
     background-image: url(hero-pattern.png);
     background-color: #647D8F;
     font-family:sans-serif;
+    font-size:16px;
     /*These styles are courtesy of */
     margin:0;     /* This is used to reset any browser-default margins */
     height:100vh; /* This is needed to overcome a Chrome bug. */
@@ -106,6 +107,7 @@ h2 {
 }
 #container-2{
     margin: 5% 0 5% 0;
+     background-image: url(dark-pattern.jpg);
     background-color: gray;
     padding: 5% 3% 5% 3%;
 }

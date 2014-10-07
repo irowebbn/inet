@@ -14,16 +14,16 @@
     padding: 0;
     list-style: none;
     text-align: center;
-    margin-top: 0;
+    margin:auto;
+    width:100%;
 }
 
   #nav li {
+    background-color: #005DAA;
     float: left;
-      display:block;
-      width:49.7%;
-      border-radius: 10px;
-      border: 1px solid #FFFFFF;
-      margin-top: 0;
+    display:block;
+    width:50%;
+    margin-top: 0;
   }
    #nav li a {
       display: block;
@@ -32,7 +32,6 @@
       text-transform: lowercase;
       font-family: sans-serif;
       color: #CFDCE6;
-      border-radius: 10px;
        }
    #nav li a:hover {
       color: #CFDCE6;
@@ -54,14 +53,13 @@
     color:white;
     text-decoration:none;
     border-radius:10px;
-    border: 1px solid white;
     text-align:center;
 }
 #button1:hover {
     background-color: #6096BF;
     border-radius:10px;
 }
-#button2 {
+/*#button2 {
     display:inline-block;
     background-color:#000080;
     font-size:20px;
@@ -77,7 +75,7 @@
 #button2:hover {
     background-color: #6096BF;
     border-radius:10px;
-}
+}*/
 body {
     color:white;
     background-image: url(hero-pattern.png);
@@ -86,7 +84,7 @@ body {
     font-size:16px;
     /*These styles are courtesy of */
     margin:0;     /* This is used to reset any browser-default margins */
-    height:100vh; /* This is needed to overcome a Chrome bug. */
+    /*height:100vh; /* This is needed to overcome a Chrome bug. */
 }
 p a {
    /* text-decoration:none*/;
@@ -101,9 +99,9 @@ h2 {
     color: #CFDCE6;
 }
 /*Sets Styles for Splash page content*/
-#main-splash{
+/*#main-splash{
     height:90vh;
-}
+}*/
 #container-2{
     margin: 5% 0 5% 0;
     background-image: url(dark-pattern.jpg);
@@ -192,9 +190,6 @@ iframe {
     }
     #nav li{
         width:49%;
-    }
-    #main-splash{
-        height:800px;
     }
 }
 

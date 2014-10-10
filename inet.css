@@ -146,6 +146,9 @@ h2 {
     color: #CFDCE6;
     text-align: center;
 }
+#hero-list{
+    text-align:left;
+}
 #form-container{
     display:block;
     margin: auto auto auto 5%;

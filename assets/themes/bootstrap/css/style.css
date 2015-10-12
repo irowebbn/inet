@@ -1,3 +1,39 @@
+/* Colors */
+.navbar {
+    background-color: #005DAA;
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav li a{
+    color:white;
+}
+#action{
+    background-color:white;
+}
+#action a {
+       color: blue;
+}
+.navbar-brand img{
+    height:50px;
+}
+.well p{
+    line-height: 1.5;
+    font-size: large;
+    font-weight: 300;
+}
+.well ul{
+    line-height: 1.5;
+    font-size: large;
+    font-weight: 300;
+}
+.sponsor .col-lg-6{
+    margin: 15px;
+}
+.sponsor img{
+    width:100%;
+}
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
